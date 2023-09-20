@@ -5,14 +5,15 @@ export function PerkenalanSection() {
         <section className="container scroll-mt-20" id="perkenalan">
             <div className="my-16 grid grid-cols-2 overflow-hidden rounded shadow-lg">
                 <div className="p-12">
-                    <p className=" text mb-2 font-black uppercase text-amber-600 ">
+                    <p className=" mb-2 text-sm font-black uppercase text-amber-600 ">
                         Selamat Datang di
                     </p>
                     <h1 className="  text-4xl font-black uppercase text-primary">
-                        Kantor Hukum Zulkafli, SH., MH. & Partners!
+                        Kantor Hukum
+                        <br /> Zulkafli, SH., MH. & Partners!
                     </h1>
                     <div className="mb-8 mt-2 w-12 border-t-8 border-amber-600" />
-                    <div className="space-y-4 text-justify font-medium text-slate-600">
+                    <div className="space-y-4 text-justify text-lg font-medium text-slate-600">
                         <p className=" ">
                             Kami adalah kantor hukum yang berdedikasi untuk memberikan solusi hukum
                             berkualitas tinggi kepada klien-klien kami. Dengan lebih dari belasan

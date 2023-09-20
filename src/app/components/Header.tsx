@@ -24,7 +24,7 @@ const navigation: NavigationProp[] = [
 
 export function Header() {
     return (
-        <header className="container sticky sticky top-0 top-0 z-[999] z-[999] flex items-center justify-between bg-white bg-white py-6">
+        <header className="container sticky top-0 z-[999] flex items-center justify-between bg-white py-6">
             <div className="flex items-center gap-x-2.5">
                 <Image alt="logo" src={"/images/logo.png"} width={40} height={40} />
                 <div className="-space-y-1.5">
