@@ -10,15 +10,15 @@ interface NavigationProp {
 const navigation: NavigationProp[] = [
     {
         title: "Perkenalan",
-        hash: "perkenalan",
+        hash: "#perkenalan",
     },
     {
         title: "Keunggulan",
-        hash: "keunggulan",
+        hash: "#keunggulan",
     },
     {
         title: "Layanan",
-        hash: "layanan",
+        hash: "#layanan",
     },
 ]
 
@@ -37,7 +37,7 @@ export function Header() {
 
             <nav>
                 {navigation.map((item, i) => (
-                    <NavItem key={i} href={`#${item.hash}`}>
+                    <NavItem key={i} href={item.hash}>
                         {item.title}
                     </NavItem>
                 ))}
