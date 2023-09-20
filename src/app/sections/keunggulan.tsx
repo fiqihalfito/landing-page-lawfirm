@@ -33,7 +33,7 @@ const content: contentProp[] = [
 
 export function KeunggulanSection() {
     return (
-        <section className="container bg-secondary pb-28 pt-20">
+        <section className="container bg-secondary pb-28 pt-20" id="keunggulan">
             <h1 className="mb-10 text-center text-3xl font-black uppercase text-primary">
                 Keunggulan
             </h1>
