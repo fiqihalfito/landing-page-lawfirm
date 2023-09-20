@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import { NavItem } from "./NavItem"
 
@@ -23,8 +24,17 @@ const navigation: NavigationProp[] = [
 
 export function Header() {
     return (
-        <header className="container sticky top-0 z-[999] flex items-center justify-between bg-white py-6">
-            <div>Zulkafli, SH., MH. & Partners</div>
+        <header className="container sticky sticky top-0 top-0 z-[999] z-[999] flex items-center justify-between bg-white bg-white py-6">
+            <div className="flex items-center gap-x-2.5">
+                <Image alt="logo" src={"/images/logo.png"} width={40} height={40} />
+                <div className="-space-y-1.5">
+                    <h1 className="text-xl font-black uppercase  text-primary">
+                        Zulkafli, SH., MH.
+                    </h1>
+                    <p className="font-light text-accent">& Partners</p>
+                </div>
+            </div>
+
             <nav>
                 {navigation.map((item, i) => (
                     <NavItem key={i} href={`#${item.hash}`}>
