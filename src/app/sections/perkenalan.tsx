@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function PerkenalanSection() {
     return (
-        <section className="container" id="perkenalan">
+        <section className="container scroll-mt-20" id="perkenalan">
             <div className="my-16 grid grid-cols-2 overflow-hidden rounded shadow-lg">
                 <div className="p-12">
                     <p className=" text mb-2 font-black uppercase text-amber-600 ">

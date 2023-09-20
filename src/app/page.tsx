@@ -13,7 +13,7 @@ const content = {
 
 export default function Home() {
     return (
-        <main className="">
+        <main className="scroll-pt-20">
             <section className="container grid h-[30rem] grid-cols-2 items-center bg-primary">
                 <div className="space-y-4 text-white">
                     <h1 className="text-5xl font-black uppercase">{content.hero.title}</h1>
