@@ -12,8 +12,8 @@ export function PerkenalanSection() {
                         Kantor Hukum Zulkafli, SH., MH. & Partners!
                     </h1>
                     <div className="mb-8 mt-2 w-12 border-t-8 border-amber-600" />
-                    <div className="space-y-4 text-justify">
-                        <p className=" font-medium text-slate-600">
+                    <div className="space-y-4 text-justify font-medium text-slate-600">
+                        <p className=" ">
                             Kami adalah kantor hukum yang berdedikasi untuk memberikan solusi hukum
                             berkualitas tinggi kepada klien-klien kami. Dengan lebih dari belasan
                             tahun pengalaman dalam praktik hukum, kami telah menjadi mitra yang
