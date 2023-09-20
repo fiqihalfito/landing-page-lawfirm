@@ -10,11 +10,10 @@ export function SocialLinkFooter({ Icon, ...props }: SocialLinkFooterProp) {
     return (
         <Link
             aria-label="sosmed-icon"
-            title="sosmed-icon"
             {...props}
             className="group rounded-full  p-2 transition-all duration-200 hover:scale-110 hover:bg-white"
         >
-            <Icon className="stroke-white group-hover:stroke-accent" />
+            <Icon className="stroke-white group-hover:stroke-accent" xlinkTitle="socmedicon" />
         </Link>
     )
 }
