@@ -99,13 +99,13 @@ const jenisKasusHukum = [
 
 export function LayananSection() {
     return (
-        <section className="container scroll-mt-8 py-20" id="layanan">
+        <section className="scroll-mt-8 px-8 py-20 md:container" id="layanan">
             <div className="mb-8 text-center">
                 <h1 className="text-3xl font-black uppercase text-primary">Layanan Kami</h1>
                 <p className="text-sm font-semibold text-amber-600">Melayani berbagai kasus</p>
             </div>
 
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
                 {jenisKasusHukum.map((kasus, i) => (
                     <div key={i} className="rounded-md border-2 shadow">
                         <h1 className=" p-2 text-center font-semibold text-primary">

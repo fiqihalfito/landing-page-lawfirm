@@ -1,6 +1,5 @@
 import { LucideIcon } from "lucide-react"
 import Link, { LinkProps } from "next/link"
-import { LinkHTMLAttributes } from "react"
 
 interface SocialLinkFooterProp extends LinkProps {
     Icon: LucideIcon

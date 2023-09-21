@@ -8,14 +8,15 @@ const content = {
 
 export function HeroSection() {
     return (
-        <section className="container grid h-[34rem] grid-cols-2 items-center bg-primary">
+        <section className="bg-primary px-8 py-20 md:container md:grid md:h-[34rem] md:grid-cols-2 md:items-center md:py-0">
             <div className="space-y-4 text-white">
-                <h1 className="text-5xl font-black uppercase">{content.hero.title}</h1>
-                <p className="text-lg">{content.hero.description}</p>
+                <h1 className="text-3xl font-black uppercase md:text-5xl">{content.hero.title}</h1>
+                <p className="text-sm md:text-lg">{content.hero.description}</p>
                 <button className="rounded-md bg-accent px-8 py-4 font-semibold transition-all duration-300 ease-in-out hover:scale-105 hover:bg-amber-600">
                     Hubungi Kami
                 </button>
             </div>
+            <div></div>
         </section>
     )
 }

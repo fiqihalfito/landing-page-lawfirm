@@ -2,18 +2,18 @@ import Image from "next/image"
 
 export function PerkenalanSection() {
     return (
-        <section className="container scroll-mt-20" id="perkenalan">
-            <div className="my-16 grid grid-cols-2 overflow-hidden rounded shadow-lg">
+        <section className="scroll-mt-20 px-8 md:container" id="perkenalan">
+            <div className="my-8 overflow-hidden rounded shadow-lg md:my-16 md:grid md:grid-cols-2">
                 <div className="p-12">
-                    <p className=" mb-2 text-sm font-black uppercase text-amber-600 ">
+                    <p className="mb-2 text-xs font-black uppercase text-amber-600 md:text-sm ">
                         Selamat Datang di
                     </p>
-                    <h1 className="  text-4xl font-black uppercase text-primary">
+                    <h1 className="text-2xl  font-black uppercase text-primary md:text-4xl">
                         Kantor Hukum
                         <br /> Zulkafli, SH., MH. & Partners!
                     </h1>
                     <div className="mb-8 mt-2 w-12 border-t-8 border-amber-600" />
-                    <div className="space-y-4 text-justify text-lg font-medium text-slate-600">
+                    <div className="space-y-4 text-justify font-medium text-slate-600 md:text-lg">
                         <p className=" ">
                             Kami adalah kantor hukum yang berdedikasi untuk memberikan solusi hukum
                             berkualitas tinggi kepada klien-klien kami. Dengan lebih dari belasan
@@ -31,7 +31,7 @@ export function PerkenalanSection() {
                         </p>
                     </div>
                 </div>
-                <div className="relative">
+                <div className="relative hidden md:block">
                     <Image
                         src={"/images/court-1.jpg"}
                         fill

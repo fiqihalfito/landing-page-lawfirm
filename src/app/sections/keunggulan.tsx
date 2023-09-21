@@ -2,7 +2,6 @@ import { CommitmentIcon } from "@/components/icons/CommitmentIcon"
 import { KeunggulanIconRender, SVGIconProp } from "@/components/icons/KeunggulanIconRender"
 import { ProvenIcon } from "@/components/icons/ProvenIcon"
 import { ImproveIcon } from "@/components/icons/improveIcon"
-import { LucideIcon } from "lucide-react"
 
 interface contentProp {
     title: string
@@ -33,11 +32,14 @@ const content: contentProp[] = [
 
 export function KeunggulanSection() {
     return (
-        <section className="container scroll-mt-20 bg-secondary pb-28 pt-20" id="keunggulan">
+        <section
+            className="scroll-mt-20 bg-secondary px-8  pb-28 pt-20 md:container"
+            id="keunggulan"
+        >
             <h1 className="mb-10 text-center text-3xl font-black uppercase text-primary">
                 Keunggulan
             </h1>
-            <div className="grid grid-cols-3 gap-x-28 text-center">
+            <div className="grid grid-cols-1 gap-y-12 text-center md:grid-cols-3 md:gap-x-28 md:gap-y-0">
                 {content.map((item, i) => (
                     <div key={i} className="flex flex-col items-center gap-y-6">
                         <KeunggulanIconRender
