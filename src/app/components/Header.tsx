@@ -39,10 +39,10 @@ export function Header() {
                 <div className="flex items-center gap-x-2.5">
                     <Image alt="logo" src={"/images/logo.png"} width={40} height={40} />
                     <div className="-space-y-0.5 md:-space-y-1.5">
-                        <h1 className="text-sm font-black uppercase text-primary  md:text-xl">
+                        <h1 className=" font-black uppercase text-primary  md:text-xl">
                             Zulkafli, SH., MH.
                         </h1>
-                        <p className="text-xs font-light text-accent md:text-base">& Partners</p>
+                        <p className="text-sm font-light text-accent md:text-base">& Partners</p>
                     </div>
                 </div>
 
