@@ -34,8 +34,8 @@ export function Header() {
     }
 
     return (
-        <div>
-            <header className="sticky top-0 z-[999] flex items-center justify-between bg-white px-4 py-6 md:container">
+        <div className="sticky top-0 z-[999]">
+            <header className=" flex items-center justify-between bg-white px-4 py-6 md:container">
                 <div className="flex items-center gap-x-2.5">
                     <Image alt="logo" src={"/images/logo.png"} width={40} height={40} />
                     <div className="-space-y-0.5 md:-space-y-1.5">
@@ -56,7 +56,9 @@ export function Header() {
                 <button className=" hidden rounded-md bg-primary px-4 py-2 text-white md:block">
                     Konsultasi sekarang
                 </button>
-                <button onClick={handleNavDrop}>{!openNavDrop ? <MenuIcon /> : <X />}</button>
+                <button className="md:hidden" onClick={handleNavDrop}>
+                    {!openNavDrop ? <MenuIcon /> : <X />}
+                </button>
             </header>
             {openNavDrop && <NavDropDown handleNavDrop={handleNavDrop} />}
         </div>
