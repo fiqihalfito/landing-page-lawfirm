@@ -16,9 +16,8 @@ export function PerkenalanSection() {
                     <div className="space-y-4 text-justify font-medium text-slate-600 md:text-lg">
                         <p className=" ">
                             Kami adalah kantor hukum yang berdedikasi untuk memberikan solusi hukum
-                            kepada klien kami. Dengan pengalaman dalam praktik hukum, kami telah
-                            menjadi mitra yang terpercaya dalam menyelesaikan berbagai jenis kasus
-                            hukum.
+                            kepada klien. Dengan pengalaman dalam praktik hukum, kami telah menjadi
+                            mitra yang terpercaya dalam menyelesaikan berbagai jenis kasus hukum.
                         </p>
                         <p>
                             <span className="font-bold text-primary">

@@ -29,7 +29,7 @@ export function SlideShow({ images }: SlideShowProp) {
                         // height={100}
                         style={{ objectFit: "cover" }}
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                        // className="w-10"
+                        className="object-center"
                     />
                 </div>
             ))}

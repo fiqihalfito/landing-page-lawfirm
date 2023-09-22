@@ -19,13 +19,13 @@ const content: contentProp[] = [
     {
         title: "Komitmen Terhadap Klien",
         description:
-            "Di Kantor Hukum Zulkafli, SH., MH., kami memahami bahwa setiap kasus adalah unik dan memiliki tantangan yang berbeda. Oleh karena itu, kami selalu mendekati setiap klien dengan penuh perhatian dan kepedulian. Kami berusaha untuk memahami kebutuhan dan kekhawatiran klien kami serta menjadikan kepentingan terbaik mereka sebagai prioritas utama.",
+            "Di Kantor Hukum Zulkafli, SH., MH., kami memahami bahwa setiap kasus adalah unik dan memiliki tantangan yang berbeda. Oleh karena itu, kami selalu melakukan pendekatan dengan hati nurani terhadap klien. Kami berusaha untuk memahami kebutuhan dan kekhawatiran klien kami serta menjadikan kepentingan terbaik mereka sebagai prioritas utama.",
         Icon: CommitmentIcon,
     },
     {
         title: "Hasil yang Terbukti",
         description:
-            "Keberhasilan kami dalam berbagai kasus adalah bukti komitmen kami terhadap pencapaian hasil yang memuaskan bagi klien kami. Kami menjalankan praktik hukum dengan etika dan integritas, selalu berpegang pada prinsip-prinsip hukum yang berlaku, dan bekerja keras untuk memberikan solusi yang optimal dalam setiap kasus.",
+            "Keberhasilan kami dalam berbagai kasus adalah bukti komitmen kami terhadap pencapaian hasil yang memuaskan bagi klien. Kami menjalankan praktik hukum dengan etika dan integritas, selalu berpegang pada prinsip-prinsip hukum yang berlaku, dan bekerja keras untuk memberikan solusi terbaik dan optimal dalam setiap kasus.",
         Icon: ProvenIcon,
     },
 ]
