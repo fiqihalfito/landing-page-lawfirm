@@ -8,11 +8,11 @@ const content = {
         "Kami adalah tim pengacara berpengalaman dalam menangani berbagai masalah hukum. Hubungi kami untuk membantu permasalahan hukum anda",
 }
 
-const images = ["palu.jpg", "perpus.jpg", "buku.jpg"]
+const images = ["profil.jpg", "palu.jpg", "perpus.jpg", "buku.jpg"]
 
 export function HeroSection() {
     return (
-        <section className="relative   md:h-[34rem]  ">
+        <section className="relative   md:h-[34rem]">
             <SlideShow images={images} />
 
             <div className="relative z-10  bg-gradient-to-r from-primary px-8 py-20 md:container md:grid md:h-full md:grid-cols-2 md:py-0">
