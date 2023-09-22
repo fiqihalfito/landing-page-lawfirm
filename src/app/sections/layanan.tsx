@@ -1,13 +1,13 @@
 const jenisKasusHukum = [
     {
-        title: "Hukum Keluarga",
+        title: "Hukum Perdata",
         items: [
-            "Perceraian",
-            "Pemisahan harta bersama",
-            "Perwalian anak dan hak asuh.",
-            // "Permasalahan waris",
+            "Sengketa perdata dan penyelesaian di pengadilan.",
+            "Kontrak perdata dan pelanggarannya.",
+            "Gugatan perdata terkait kepemilikan dan hak-hak sipil.",
         ],
     },
+
     // {
     //     title: "Hukum Properti",
     //     items: [
@@ -31,6 +31,15 @@ const jenisKasusHukum = [
             // "Penyelidikan dan perundingan dengan jaksa.",
             "Banding dan upaya hukum lainnya.",
             "Pledoi atau pembelaan",
+        ],
+    },
+    {
+        title: "Hukum Keluarga",
+        items: [
+            "Perceraian",
+            "Pemisahan harta bersama",
+            "Perwalian anak dan hak asuh.",
+            // "Permasalahan waris",
         ],
     },
     {

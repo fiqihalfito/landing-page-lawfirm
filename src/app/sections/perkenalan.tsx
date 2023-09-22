@@ -4,7 +4,7 @@ export function PerkenalanSection() {
     return (
         <section className="scroll-mt-20 px-8 md:container" id="perkenalan">
             <div className="my-8 overflow-hidden rounded shadow-lg md:my-16 md:grid md:grid-cols-2">
-                <div className="p-12">
+                <div className="p-6 md:p-12">
                     <p className="mb-2 text-xs font-black uppercase text-amber-600 md:text-sm ">
                         Selamat Datang di
                     </p>
