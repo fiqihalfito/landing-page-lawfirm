@@ -21,7 +21,7 @@ const jenisKasusHukum = [
     //     items: [
     //         // "Pembentukan perusahaan dan pemberian saran bisnis.",
     //         "Kontrak bisnis dan litigasi komersial.",
-    //         // "Kepailitan dan restrukturisasi bisnis.",
+    //         // "Kepailitan dan restrukturisasi bisnis",
     //     ],
     // },
     {
