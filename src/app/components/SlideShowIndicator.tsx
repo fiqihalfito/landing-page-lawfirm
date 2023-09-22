@@ -7,7 +7,7 @@ export function SlideShowIndicator({ images }: { images: string[] }) {
     const { currentImage } = useSlideShow(images)
 
     return (
-        <div className="absolute bottom-6 left-1/2 z-10 mx-auto flex items-center gap-x-4">
+        <div className="absolute bottom-6 left-1/2 z-10 mx-auto flex -translate-x-1/2 items-center gap-x-4">
             {images.map((item, i) => (
                 <div
                     key={i}

@@ -12,10 +12,10 @@ const images = ["palu.jpg", "perpus.jpg", "buku.jpg"]
 
 export function HeroSection() {
     return (
-        <section className="relative  py-20 md:h-[34rem]  md:py-0">
+        <section className="relative   md:h-[34rem]  ">
             <SlideShow images={images} />
 
-            <div className="relative z-10 h-full bg-gradient-to-r from-primary px-8 md:container md:grid md:grid-cols-2">
+            <div className="relative z-10  bg-gradient-to-r from-primary px-8 py-20 md:container md:grid md:h-full md:grid-cols-2 md:py-0">
                 {/* col 1 */}
                 <div className="flex items-center  text-white">
                     <div className="space-y-4">

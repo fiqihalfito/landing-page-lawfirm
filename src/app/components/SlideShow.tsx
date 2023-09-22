@@ -12,7 +12,7 @@ export function SlideShow({ images }: SlideShowProp) {
     const { currentImage, movement } = useSlideShow(images)
 
     return (
-        <div className="absolute z-0 flex h-full w-full items-center overflow-hidden">
+        <div className="absolute top-0 z-0 flex h-full w-full items-center overflow-hidden">
             {images.map((item, i) => (
                 <div
                     key={i}
