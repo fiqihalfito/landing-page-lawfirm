@@ -1,22 +1,37 @@
+import { Phone } from "lucide-react"
+import { SlideShow } from "../components/SlideShow"
+import { SlideShowIndicator } from "../components/SlideShowIndicator"
+
 const content = {
-    hero: {
-        title: "Konsultan Hukum Profesional Siap Membantu Anda",
-        description:
-            "Kami adalah tim pengacara berpengalaman dengan rekam jejak yang kuat dalam menangani berbagai masalah hukum. Hubungi kami sekarang untuk konsultasi gratis",
-    },
+    title: "Konsultan Hukum Profesional Siap Membantu Anda",
+    description:
+        "Kami adalah tim pengacara berpengalaman dalam menangani berbagai masalah hukum. Hubungi kami untuk membantu permasalahan hukum anda",
 }
+
+const images = ["palu.jpg", "perpus.jpg", "buku.jpg"]
 
 export function HeroSection() {
     return (
-        <section className="bg-primary px-8 py-20 md:container md:grid md:h-[34rem] md:grid-cols-2 md:items-center md:py-0">
-            <div className="space-y-4 text-white">
-                <h1 className="text-3xl font-black uppercase md:text-5xl">{content.hero.title}</h1>
-                <p className="text-sm md:text-lg">{content.hero.description}</p>
-                <button className="rounded-md bg-accent px-8 py-4 font-semibold transition-all duration-300 ease-in-out hover:scale-105 hover:bg-amber-600">
-                    Hubungi Kami
-                </button>
+        <section className="relative  py-20 md:h-[34rem]  md:py-0">
+            <SlideShow images={images} />
+
+            <div className="relative z-10 h-full bg-gradient-to-r from-primary px-8 md:container md:grid md:grid-cols-2">
+                {/* col 1 */}
+                <div className="flex items-center  text-white">
+                    <div className="space-y-4">
+                        <h1 className="text-3xl font-black uppercase md:text-5xl">
+                            {content.title}
+                        </h1>
+                        <p className="text-sm md:text-lg">{content.description}</p>
+                        <button className="flex items-center gap-x-2 rounded-md bg-accent px-8 py-4 font-semibold transition-all duration-300 ease-in-out hover:scale-105 hover:bg-amber-600">
+                            <Phone size={20} /> <span>Hubungi Kami</span>
+                        </button>
+                    </div>
+                </div>
+                {/* col 2 => coming soon */}
             </div>
-            <div></div>
+
+            <SlideShowIndicator images={images} />
         </section>
     )
 }

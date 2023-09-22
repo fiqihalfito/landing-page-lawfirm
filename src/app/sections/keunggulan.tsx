@@ -13,7 +13,7 @@ const content: contentProp[] = [
     {
         title: "Pengalaman dan Kompetensi Tinggi",
         description:
-            "Tim kami terdiri dari pengacara-pengacara berpengalaman yang telah menangani berbagai kasus hukum dengan beragam tingkat kompleksitas. Kami memahami nuansa hukum dan memiliki rekam jejak yang kuat dalam mencapai hasil yang memuaskan bagi klien kami.",
+            "Tim kami terdiri dari pengacara-pengacara berpengalaman yang telah menangani berbagai kasus hukum. Kami memahami nuansa hukum dan memiliki rekam jejak dalam mencapai hasil yang memuaskan bagi klien kami.",
         Icon: ImproveIcon,
     },
     {
@@ -25,7 +25,7 @@ const content: contentProp[] = [
     {
         title: "Hasil yang Terbukti",
         description:
-            "Keberhasilan kami dalam berbagai kasus adalah bukti komitmen kami terhadap pencapaian hasil yang memuaskan bagi klien kami. Kami menjalankan praktik hukum dengan etika dan integritas yang tinggi, selalu berpegang pada prinsip-prinsip hukum yang berlaku, dan bekerja keras untuk memberikan solusi yang optimal dalam setiap kasus.",
+            "Keberhasilan kami dalam berbagai kasus adalah bukti komitmen kami terhadap pencapaian hasil yang memuaskan bagi klien kami. Kami menjalankan praktik hukum dengan etika dan integritas, selalu berpegang pada prinsip-prinsip hukum yang berlaku, dan bekerja keras untuk memberikan solusi yang optimal dalam setiap kasus.",
         Icon: ProvenIcon,
     },
 ]

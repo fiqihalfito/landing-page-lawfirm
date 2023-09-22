@@ -16,17 +16,19 @@ export function PerkenalanSection() {
                     <div className="space-y-4 text-justify font-medium text-slate-600 md:text-lg">
                         <p className=" ">
                             Kami adalah kantor hukum yang berdedikasi untuk memberikan solusi hukum
-                            berkualitas tinggi kepada klien-klien kami. Dengan lebih dari belasan
-                            tahun pengalaman dalam praktik hukum, kami telah menjadi mitra yang
-                            terpercaya dalam menyelesaikan berbagai jenis kasus hukum.
+                            kepada klien-klien kami. Dengan pengalaman dalam praktik hukum, kami
+                            telah menjadi mitra yang terpercaya dalam menyelesaikan berbagai jenis
+                            kasus hukum.
                         </p>
                         <p>
-                            Kantor Hukum Zulkafli, SH., MH. & Partners adalah hasil dari visi
-                            bersama sekelompok pengacara yang berkomitmen untuk menjalankan praktik
-                            hukum dengan etika tinggi, integritas tak tergoyahkan, dan perhatian
+                            <span className="font-bold text-primary">
+                                Kantor Hukum Zulkafli, SH., MH. & Partners
+                            </span>{" "}
+                            adalah hasil dari visi bersama sekelompok pengacara yang berkomitmen
+                            untuk menjalankan praktik hukum dengan etika, integritas, dan perhatian
                             yang tulus terhadap klien. Kami percaya bahwa setiap individu dan
                             perusahaan berhak mendapatkan perlakuan yang adil di mata hukum, dan
-                            itulah yang mendorong kami untuk berjuang keras demi melindungi hak dan
+                            itulah yang mendorong kami untuk berjuang demi melindungi hak dan
                             kepentingan klien kami.
                         </p>
                     </div>

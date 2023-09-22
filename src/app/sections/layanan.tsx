@@ -2,33 +2,35 @@ const jenisKasusHukum = [
     {
         title: "Hukum Keluarga",
         items: [
-            "Perceraian dan pemisahan harta bersama.",
-            "Perjanjian pra-nikah dan pemberian nafkah.",
+            "Perceraian",
+            "Pemisahan harta bersama",
             "Perwalian anak dan hak asuh.",
+            // "Permasalahan waris",
         ],
     },
-    {
-        title: "Hukum Properti",
-        items: [
-            "Pembelian dan penjualan properti.",
-            "Sengketa kepemilikan dan tuntutan hak properti.",
-            "Perjanjian sewa-menyewa.",
-        ],
-    },
-    {
-        title: "Hukum Bisnis",
-        items: [
-            "Pembentukan perusahaan dan pemberian saran bisnis.",
-            "Kontrak bisnis dan litigasi komersial.",
-            "Kepailitan dan restrukturisasi bisnis.",
-        ],
-    },
+    // {
+    //     title: "Hukum Properti",
+    //     items: [
+    //         "Pembelian dan penjualan properti.",
+    //         "Sengketa kepemilikan dan tuntutan hak properti.",
+    //         "Perjanjian sewa-menyewa.",
+    //     ],
+    // },
+    // {
+    //     title: "Hukum Bisnis",
+    //     items: [
+    //         // "Pembentukan perusahaan dan pemberian saran bisnis.",
+    //         "Kontrak bisnis dan litigasi komersial.",
+    //         // "Kepailitan dan restrukturisasi bisnis.",
+    //     ],
+    // },
     {
         title: "Hukum Pidana",
         items: [
             "Pertahanan terhadap tuduhan kejahatan.",
-            "Penyelidikan dan perundingan dengan jaksa.",
-            "Banding dan upaya rehabilitasi.",
+            // "Penyelidikan dan perundingan dengan jaksa.",
+            "Banding dan upaya hukum lainnya.",
+            "Pledoi atau pembelaan",
         ],
     },
     {
@@ -43,8 +45,8 @@ const jenisKasusHukum = [
         title: "Hukum Ketenagakerjaan",
         items: [
             "Sengketa ketenagakerjaan.",
-            "Perjanjian kerja dan masalah gaji.",
-            "Diskriminasi dan pelecehan di tempat kerja.",
+            "Perjanjian kerja",
+            // "Diskriminasi dan pelecehan di tempat kerja.",
         ],
     },
     {
@@ -55,46 +57,46 @@ const jenisKasusHukum = [
             "Tanggung jawab perusahaan terkait kerusakan lingkungan.",
         ],
     },
-    {
-        title: "Hukum Keimigrasian",
-        items: [
-            "Pemohonan visa dan status imigrasi.",
-            "Upaya hukum terhadap deportasi.",
-            "Kewarganegaraan dan pengungsi.",
-        ],
-    },
+    // {
+    //     title: "Hukum Keimigrasian",
+    //     items: [
+    //         "Pemohonan visa dan status imigrasi.",
+    //         // "Upaya hukum terhadap deportasi.",
+    //         "Kewarganegaraan dan pengungsi.",
+    //     ],
+    // },
     {
         title: "Hukum Waris",
         items: [
             "Pembagian harta warisan.",
-            "Pembuatan wasiat dan perencanaan warisan.",
-            "Sengketa warisan dan pengadilan.",
+            // "Pembuatan wasiat dan perencanaan warisan.",
+            "Sengketa warisan dan pengadilan agama.",
         ],
     },
     {
         title: "Hukum Konsumen",
         items: [
             "Perlindungan konsumen dan sengketa konsumen.",
-            "Pertahanan terhadap tuntutan konsumen.",
+            // "Pertahanan terhadap tuntutan konsumen.",
             "Pelanggaran hak-hak konsumen.",
         ],
     },
-    {
-        title: "Hukum Teknologi dan Internet",
-        items: [
-            "Perjanjian lisensi perangkat lunak dan teknologi.",
-            "Perlindungan privasi dan keamanan data.",
-            "Sengketa hukum terkait domain dan situs web.",
-        ],
-    },
-    {
-        title: "Hukum Kesehatan",
-        items: [
-            "Masalah hukum medis dan pertanggungjawaban.",
-            "Perjanjian antara penyedia layanan kesehatan.",
-            "Isu-isu hukum dalam riset medis.",
-        ],
-    },
+    // {
+    //     title: "Hukum Teknologi dan Internet",
+    //     items: [
+    //         "Perjanjian lisensi perangkat lunak dan teknologi.",
+    //         "Perlindungan privasi dan keamanan data.",
+    //         "Sengketa hukum terkait domain dan situs web.",
+    //     ],
+    // },
+    // {
+    //     title: "Hukum Kesehatan",
+    //     items: [
+    //         "Masalah hukum medis dan pertanggungjawaban.",
+    //         "Perjanjian antara penyedia layanan kesehatan.",
+    //         // "Isu-isu hukum dalam riset medis.",
+    //     ],
+    // },
 ]
 
 export function LayananSection() {
