@@ -11,7 +11,7 @@ interface contentProp {
 
 const content: contentProp[] = [
     {
-        title: "Pengalaman dan Kompetensi Tinggi",
+        title: "Pengalaman dan Kompetensi",
         description:
             "Tim kami terdiri dari pengacara-pengacara berpengalaman yang telah menangani berbagai kasus hukum. Kami memahami nuansa hukum dan memiliki rekam jejak dalam mencapai hasil yang memuaskan bagi klien kami.",
         Icon: ImproveIcon,

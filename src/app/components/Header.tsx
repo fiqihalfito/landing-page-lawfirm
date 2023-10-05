@@ -46,7 +46,7 @@ export function Header() {
                     </div>
                 </div>
 
-                <nav className="hidden md:block">
+                <nav className="hidden space-x-4 md:block">
                     {navigation.map((item, i) => (
                         <NavItem key={i} href={item.hash}>
                             {item.title}

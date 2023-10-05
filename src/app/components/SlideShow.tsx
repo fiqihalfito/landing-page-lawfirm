@@ -25,6 +25,7 @@ export function SlideShow({ images }: SlideShowProp) {
                         src={`/images/hero/${item}`}
                         alt="hero-image"
                         fill
+                        priority
                         // width={100}
                         // height={100}
                         style={{ objectFit: "cover" }}
