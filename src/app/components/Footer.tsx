@@ -36,15 +36,15 @@ export function Footer() {
                     <li>
                         <h2 className="font-semibold">Depok</h2>
                         <p>Jl. Komjen Pol. M. Jasin Kelapadua Cimanggis - Depok</p>
-                        {/* <p>Telp. (021) 87707911</p> */}
+                        <p>Telp. (021) 87707911</p>
                     </li>
                     <li>
                         <h2 className="font-semibold">Lampung Selatan</h2>
                         <p>
-                            Jl. Raya Bumi Sari Samping Pabrik Wong Coco Kec. Natar Kab. Lampung
-                            Selatan{" "}
+                            Jl. Lintas Sumatera Bumi Sari Samping Pabrik Wong Coco Kec. Natar Kab.
+                            Lampung Selatan{" "}
                         </p>
-                        {/* <p>Telp. 0812 8184 9999</p> */}
+                        <p>Telp. 0812 8184 9999</p>
                     </li>
                     <li>
                         <h2 className="font-semibold">Palembang</h2>
@@ -52,7 +52,7 @@ export function Footer() {
                             Griya Palem Kencana Kel. Talang Kelapa Kec. Alang-Alang Lebar Kota
                             Palembang
                         </p>
-                        {/* <p>Telp. 0812 8184 9999</p> */}
+                        <p>Telp. 0812 8184 9999</p>
                     </li>
                 </ul>
             </div>
