@@ -29,6 +29,33 @@ export function Footer() {
                     />
                 </div>
             </div>
+
+            <div className="mt-8 text-white">
+                <h1 className="mb-4 text-3xl font-bold">Alamat</h1>
+                <ul className="space-y-4">
+                    <li>
+                        <h2 className="font-semibold">Depok</h2>
+                        <p>Jl. Komjen Pol. M. Jasin Kelapadua Cimanggis - Depok</p>
+                        <p>Telp. (021) 87707911</p>
+                    </li>
+                    <li>
+                        <h2 className="font-semibold">Lampung Selatan</h2>
+                        <p>
+                            Jl. Raya Bumi Sari Samping Pabrik Wong Coco Kec. Natar Kab. Lampung
+                            Selatan{" "}
+                        </p>
+                        <p>Telp. 0812 8184 9999</p>
+                    </li>
+                    <li>
+                        <h2 className="font-semibold">Palembang</h2>
+                        <p>
+                            Griya Palem Kencana Kel. Talang Kelapa Kec. Alang-Alang Lebar Kota
+                            Palembang
+                        </p>
+                        <p>Telp. 0812 8184 9999</p>
+                    </li>
+                </ul>
+            </div>
             {/* <nav></nav> */}
 
             <p className="mt-8 text-center text-xs font-extralight tracking-wide  text-slate-200 md:mt-16">

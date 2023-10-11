@@ -14,7 +14,7 @@ export function PerkenalanSection() {
                     </h1>
                     <div className="mb-8 mt-2 w-12 border-t-8 border-amber-600" />
                     <div className="space-y-4 text-justify font-medium text-slate-600 md:text-lg">
-                        <p className=" ">
+                        {/* <p className=" ">
                             Kami adalah kantor hukum yang berdedikasi untuk memberikan solusi hukum
                             kepada klien. Dengan pengalaman dalam praktik hukum, kami telah menjadi
                             mitra yang terpercaya dalam menyelesaikan berbagai jenis kasus hukum.
@@ -29,6 +29,56 @@ export function PerkenalanSection() {
                             dan perusahaan berhak mendapatkan perlakuan yang adil di mata hukum, dan
                             itulah yang mendorong kami untuk berjuang demi melindungi hak dan
                             kepentingan klien kami.
+                        </p> */}
+                        <p>
+                            Kantor hukum kami bersedia dan siap melayani berbagai konsultasi dan
+                            penyelesaian masalah hukum dalam berbagai aspek hukum di Indonesia.
+                            Untuk itu, kami senantiasa melakukan update jaringan bidang keilmuan
+                            dalam memberikan pengayaan atas norma-norma hukum dan teknik penemuan
+                            hukum berdasarkan azas ilmu hukum sehingga setiap kajian analisis
+                            terhadap berbagai macam permasalahan yang terjadi terbentuk secara
+                            komprehensif berdasarkan aturan hukum yang berlaku.
+                        </p>
+                        <p>
+                            <span className="font-bold">Jasa/pelayanan hukum</span> yang dapat
+                            diberikan oleh kantor hukum kami secara umum meliputi seluruh aspek
+                            hukum sebagai berikut:{" "}
+                            <span className="font-bold">
+                                bidang pidana, perdata, administrasi negara dan konstitusi.
+                            </span>{" "}
+                            Secara khusus meliputi bidang pertanahan, ketenagakerjaan, bisnis, harta
+                            kekayaan, perkawinan, properti, legalitas perusahaan, persaingan curang,
+                            dan lain sebagainya.
+                        </p>
+                        <p>
+                            Dalam bidang bisnis, sejak awal mendirikan bisnis maka setiap bisnis
+                            yang legal adalah bisnis yang dijalankan oleh perusahaan.
+                        </p>
+                        <p>
+                            Setiap perusahaan harus memiliki dokumen legalitas agar sah dan
+                            dibenarkan menurut hukum sehingga dapat menjalankan usahanya. Semua
+                            bentuk perusahaan dapat menjalankan kegiatan usahanya jika tidak
+                            memiliki dokumen legalitas lengkap.{" "}
+                        </p>
+                        <p>
+                            Agar usaha yang dijalankan itu, terjamin kepastian hukum, maka sebaiknya
+                            setiap langkah yang akan ditempuh dimintakan dulu advice dari Pengacara
+                            melalu <i className="font-bold">“legal opinion”</i> bukan memintanya
+                            setelah terjadi masalah.
+                        </p>
+                        <p>
+                            Kesuksesan usaha perusahaan pada suatu waktu dapat pula diikuti dengan
+                            tindakan curang atau persaingan tidak sehat dari pelaku usaha lain atau
+                            kelompok pelaku usaha. Untuk itu, dengan bantuan Advokat, Kami dapat
+                            membantu perusahaan dalam menyikapi masalah tersebut dan melakukan
+                            pelaporan ke KPPU yang wajib didampingi oleh seorang Advokat.
+                        </p>
+                        <p>
+                            Jika perusahaan tidak mampu membayar hutang dan perlu penundaan
+                            kewajiban pembayaran hutang maka Kami dapat membantu menyusun langkah
+                            penundaan hutang tersebut. Bahkan jika perusahaan akan mengalami pailit,
+                            maka berdasarkan UU Kepailitan setiap proses pailit orang atau
+                            perusahaan wajib didampingi oleh seorang Advokat.
                         </p>
                     </div>
                 </div>
