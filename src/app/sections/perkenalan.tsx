@@ -10,7 +10,7 @@ export function PerkenalanSection() {
                     </p>
                     <h1 className="text-2xl  font-black uppercase text-primary md:text-4xl">
                         Kantor Hukum
-                        <br /> Zulkafli, SH., MH. & Partners!
+                        <br /> Zulkafli, SH., MH. & Partners
                     </h1>
                     <div className="mb-8 mt-2 w-12 border-t-8 border-amber-600" />
                     <div className="space-y-4 text-justify font-medium text-slate-600 md:text-lg">

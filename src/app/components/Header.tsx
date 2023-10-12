@@ -37,8 +37,9 @@ export function Header() {
         <div className="sticky top-0 z-[999]">
             <header className=" flex items-center justify-between bg-white px-4 py-6 md:container">
                 <div className="flex items-center gap-x-2.5">
-                    <Image alt="logo" src={"/images/logo.png"} width={40} height={40} />
+                    <Image alt="logo" src={"/images/logo.png"} width={60} height={40} />
                     <div className="-space-y-0.5 md:-space-y-1.5">
+                        <h2 className="font-semibold text-primary/80 md:text-base">Kantor Hukum</h2>
                         <h1 className=" font-black uppercase text-primary  md:text-xl">
                             Zulkafli, SH., MH.
                         </h1>
