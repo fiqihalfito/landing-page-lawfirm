@@ -39,7 +39,7 @@ export function Footer() {
                         <p>Telp. (021) 87707911</p>
                     </li>
                     <li>
-                        <h2 className="font-semibold">Lampung Selatan</h2>
+                        <h2 className="font-semibold">Lampung</h2>
                         <p>
                             Jl. Lintas Sumatera Bumi Sari Samping Pabrik Wong Coco Kec. Natar Kab.
                             Lampung Selatan{" "}

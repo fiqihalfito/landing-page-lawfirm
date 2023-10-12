@@ -5,7 +5,7 @@ import { SlideShowIndicator } from "../components/SlideShowIndicator"
 const content = {
     title: "Konsultan Hukum Profesional Siap Membantu Anda",
     description:
-        "Kami adalah tim pengacara berpengalaman dalam menangani berbagai masalah hukum. Hubungi kami untuk membantu permasalahan hukum anda",
+        "Kami adalah tim Lawyer berpengalaman dalam menangani berbagai masalah hukum. Hubungi kami untuk membantu permasalahan hukum anda",
 }
 
 const images = ["profil.jpg", "palu.jpg", "perpus.jpg", "buku.jpg"]

@@ -33,7 +33,7 @@ export function PerkenalanSection() {
                         <p>
                             Kantor hukum kami bersedia dan siap melayani berbagai konsultasi dan
                             penyelesaian masalah hukum dalam berbagai aspek hukum di Indonesia.
-                            Untuk itu, kami senantiasa melakukan update jaringan bidang keilmuan
+                            Untuk itu, kami senantiasa melakukan update di bidang hukum dan keilmuan
                             dalam memberikan pengayaan atas norma-norma hukum dan teknik penemuan
                             hukum berdasarkan azas ilmu hukum sehingga setiap kajian analisis
                             terhadap berbagai macam permasalahan yang terjadi terbentuk secara
@@ -44,11 +44,11 @@ export function PerkenalanSection() {
                             diberikan oleh kantor hukum kami secara umum meliputi seluruh aspek
                             hukum sebagai berikut:{" "}
                             <span className="font-bold">
-                                bidang pidana, perdata, administrasi negara dan konstitusi.
+                                bidang pidana, perdata, administrasi negara, dan tata usaha negara.
                             </span>{" "}
                             Secara khusus meliputi bidang pertanahan, ketenagakerjaan, bisnis, harta
-                            kekayaan, perkawinan, properti, legalitas perusahaan, persaingan curang,
-                            dan lain sebagainya.
+                            kekayaan intelektual, perkawinan, properti, legalitas perusahaan,
+                            persaingan usaha, dan lain sebagainya.
                         </p>
                         <p>
                             Dalam bidang bisnis, sejak awal mendirikan bisnis maka setiap bisnis
@@ -58,18 +58,18 @@ export function PerkenalanSection() {
                             Setiap perusahaan harus memiliki dokumen legalitas agar sah dan
                             dibenarkan menurut hukum sehingga dapat menjalankan usahanya. Semua
                             bentuk perusahaan dapat menjalankan kegiatan usahanya jika tidak
-                            memiliki dokumen legalitas lengkap.{" "}
+                            memiliki dokumen legalitas lengkap.
                         </p>
                         <p>
                             Agar usaha yang dijalankan itu, terjamin kepastian hukum, maka sebaiknya
-                            setiap langkah yang akan ditempuh dimintakan dulu advice dari Pengacara
-                            melalu <i className="font-bold">“legal opinion”</i> bukan memintanya
+                            setiap langkah yang akan ditempuh dimintakan dulu advice dari Advokat
+                            melalui <i className="font-bold">“legal opinion”</i> bukan memintanya
                             setelah terjadi masalah.
                         </p>
                         <p>
                             Kesuksesan usaha perusahaan pada suatu waktu dapat pula diikuti dengan
                             tindakan curang atau persaingan tidak sehat dari pelaku usaha lain atau
-                            kelompok pelaku usaha. Untuk itu, dengan bantuan Advokat, Kami dapat
+                            kelompok pelaku usaha. Untuk itu, dengan bantuan Tim Advokat kami, dapat
                             membantu perusahaan dalam menyikapi masalah tersebut dan melakukan
                             pelaporan ke KPPU yang wajib didampingi oleh seorang Advokat.
                         </p>
