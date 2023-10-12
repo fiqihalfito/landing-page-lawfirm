@@ -75,10 +75,11 @@ export function PerkenalanSection() {
                         </p>
                         <p>
                             Jika perusahaan tidak mampu membayar hutang dan perlu penundaan
-                            kewajiban pembayaran hutang maka Kami dapat membantu menyusun langkah
-                            penundaan hutang tersebut. Bahkan jika perusahaan akan mengalami pailit,
-                            maka berdasarkan UU Kepailitan setiap proses pailit orang atau
-                            perusahaan wajib didampingi oleh seorang Advokat.
+                            kewajiban pembayaran hutang maka Tim Advokat kami dapat membantu
+                            menyusun langkah-langkah penundaan hutang tersebut. Bahkan jika
+                            perusahaan akan mengalami pailit, maka berdasarkan UU Kepailitan setiap
+                            proses pailit orang atau perusahaan wajib didampingi oleh seorang
+                            Advokat.
                         </p>
                     </div>
                 </div>
