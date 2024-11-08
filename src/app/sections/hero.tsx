@@ -8,7 +8,7 @@ const content = {
         "Kami adalah tim Lawyer berpengalaman dalam menangani berbagai masalah hukum. Hubungi kami untuk membantu permasalahan hukum anda",
 }
 
-const images = ["profil.jpg", "palu.jpg", "perpus.jpg", "buku.jpg"]
+const images = ["profil.jpg", "palu.jpg", "perpus.jpg", "buku.jpg", "brimob.JPG"]
 
 export function HeroSection() {
     return (
