@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { SocialLinkFooter } from "./SocialLinkFooter"
 import { Linkedin, Mail, Phone } from "lucide-react"
-import Logo from "public/images/logo.png"
+import Logo from "/public/images/logo.png"
 
 export function Footer() {
     return (
