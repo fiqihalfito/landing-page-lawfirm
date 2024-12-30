@@ -19,7 +19,7 @@ const content: contentProp[] = [
     {
         title: "Komitmen Terhadap Klien",
         description:
-            "Di Kantor Hukum Zulkafli, SH., MH., kami memahami bahwa setiap kasus adalah unik dan memiliki tantangan yang berbeda. Oleh karena itu, kami selalu melakukan pendekatan dengan hati nurani terhadap klien. Kami berusaha untuk memahami kebutuhan dan kekhawatiran klien kami serta menjadikan kepentingan terbaik mereka sebagai prioritas utama.",
+            "Di Kantor Hukum Zulkafli, SH., MH., kami memahami bahwa setiap kasus memiliki tantangan yang berbeda. Oleh karena itu, kami selalu melakukan pendekatan dengan hati nurani terhadap klien. Kami berusaha untuk memahami kebutuhan dan kekhawatiran klien kami serta menjadikan kepentingan terbaik mereka sebagai prioritas utama.",
         Icon: CommitmentIcon,
     },
     {
@@ -33,7 +33,7 @@ const content: contentProp[] = [
 export function KeunggulanSection() {
     return (
         <section
-            className="scroll-mt-20 bg-secondary px-8  pb-28 pt-20 md:container"
+            className="scroll-mt-20 bg-secondary px-8 pb-28 pt-20 md:container"
             id="keunggulan"
         >
             <h1 className="mb-10 text-center text-3xl font-black uppercase text-primary">

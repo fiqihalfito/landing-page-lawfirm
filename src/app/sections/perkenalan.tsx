@@ -5,10 +5,10 @@ export function PerkenalanSection() {
         <section className="scroll-mt-20 px-8 md:container" id="perkenalan">
             <div className="my-8 overflow-hidden rounded shadow-lg md:my-16 md:grid md:grid-cols-2">
                 <div className="p-6 md:p-12">
-                    <p className="mb-2 text-xs font-black uppercase text-amber-600 md:text-sm ">
+                    <p className="mb-2 text-xs font-black uppercase text-amber-600 md:text-sm">
                         Selamat Datang di
                     </p>
-                    <h1 className="text-2xl  font-black uppercase text-primary md:text-4xl">
+                    <h1 className="text-2xl font-black uppercase text-primary md:text-4xl">
                         Kantor Hukum
                         <br /> Zulkafli, SH., MH. & Partners
                     </h1>
@@ -71,7 +71,8 @@ export function PerkenalanSection() {
                             tindakan curang atau persaingan tidak sehat dari pelaku usaha lain atau
                             kelompok pelaku usaha. Untuk itu, dengan bantuan Tim Advokat kami, dapat
                             membantu perusahaan dalam menyikapi masalah tersebut dan melakukan
-                            pelaporan ke KPPU yang wajib didampingi oleh seorang Advokat.
+                            pelaporan ke Komisi Pengawas Persaingan Usaha (KPPU) yang wajib
+                            didampingi oleh seorang Advokat.
                         </p>
                         <p>
                             Jika perusahaan tidak mampu membayar hutang dan perlu penundaan
