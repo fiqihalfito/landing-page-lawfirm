@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
     title: "Kantor Hukum Zulkafli, SH., MH. & Partners",
-    description: "Melayani berbagai jenis hukum",
+    description: "Melayani berbagai permasalahan hukum",
     metadataBase: new URL("https://pengacarazulkafli.com"),
     alternates: {
         canonical: "/",
