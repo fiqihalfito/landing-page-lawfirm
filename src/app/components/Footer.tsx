@@ -48,17 +48,14 @@ export function Footer() {
                     </li>
                     <li>
                         <h2 className="font-semibold">Palembang</h2>
-                        <p>
-                            Griya Palem Kencana Kel. Talang Kelapa Kec. Alang-Alang Lebar Kota
-                            Palembang
-                        </p>
+                        <p>Jalan HBR Motik km.8 Ruko Green Tara Residence No.4 Kota Palembang</p>
                         <p>Telp. 0812 8184 9999</p>
                     </li>
                 </ul>
             </div>
             {/* <nav></nav> */}
 
-            <p className="mt-8 text-center text-xs font-extralight tracking-wide  text-slate-200 md:mt-16">
+            <p className="mt-8 text-center text-xs font-extralight tracking-wide text-slate-200 md:mt-16">
                 Zulkafli, SH., MH. & Partners &copy; 2023
             </p>
         </footer>
